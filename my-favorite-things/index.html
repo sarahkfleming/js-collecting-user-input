@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nashville Software School</title>
+  <!-- Fix favicon error in Chrome -->
+  <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+  <link rel="stylesheet" href="./styles/favoriteThings.css">
+</head>
+
+<body>
+
+  <fieldset>
+    <label for="favoriteThing">One of my favorite things</label>
+    <input type="text" id="favoriteThing" placeholder="Enter a favorite thing" autofocus />
+  </fieldset>
+  <fieldset>
+    <label for="purchaseLocation">Potential purchase location</label>
+    <input type="text" id="purchaseLocation" placeholder="Enter purchase location" />
+  </fieldset>
+  <button id="savetoWishlist">Save to Wishlist</button>
+
+  <article id="favoriteThingsList"></article>
+
+  <script src="./scripts/favoriteThings.js"></script>
+</body>
+
+</html>
