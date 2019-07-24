@@ -9,8 +9,7 @@ document.querySelector("#savetoWishlist").addEventListener("click", event => {
     if(favoriteThingInput !== "" && purchaseLocationInput !== "") {
         printFavoriteThings.innerHTML += `
         <section>
-            <h2>${favoriteThingInput}</h2>
-            <h3>${purchaseLocationInput}</h3>
+            I can purchase ${favoriteThingInput} at ${purchaseLocationInput}
         </section>
         `
     } else {
